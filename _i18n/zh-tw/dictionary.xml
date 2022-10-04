@@ -680,4 +680,9 @@
   <block id="f3b3e9858be5dbfaf6c39891db3263a2" category="paragraph"><block ref="f3b3e9858be5dbfaf6c39891db3263a2" category="inline-link-rx"></block></block>
   <block id="346f7f627d1a93bfbf315865554048c6" category="list-text">反勒索軟體</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896 TiB</block>
+  <block id="28a0c8d229d4ecb42ddff7891ff662bd" category="section-title">9.10.1 P6（2022年7月13日）</block>
+  <block id="086d2d767570d20a10811fa2ee39d85d" category="paragraph">如果Cloud Volumes ONTAP 您有執行3.9.19版或更新版本的Connector、Microsoft Azure現在可提供9.10.1 p6修補程式以供使用。Cloud Manager會提示您將現有系統升級至此修補程式版本。</block>
+  <block id="4d90d21642c7222312363da000d7409f" category="inline-link">檢視在p6修補程式中修正的錯誤清單</block>
+  <block id="a1a76d69474e885d4cccb97efcc9388e" category="paragraph"><block ref="748bb4ed917d0715422ce7b9282ee6b3" category="inline-link-rx"></block> （需登入 NetApp 支援網站）。</block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
 </blocks>

@@ -463,20 +463,15 @@
   <block id="656b5219a3072e1d0ff3209fb7749f9b" category="cell">336 TiB</block>
   <block id="c7867e37fc822edce03899d5be8cd610" category="cell">19 ^2^</block>
   <block id="4668344801574e5e337879aa8f85df78" category="cell">304. TiB</block>
-  <block id="fc826e6778c6295676325980e26183d6" category="cell">c4、m4和r4執行個體</block>
-  <block id="e369853df766fa44e1ed0ff613f563bd" category="cell">34</block>
   <block id="64d21a165becbe18d275a66aac4f8e8e" category="list-text">21個資料磁碟是_new _部署Cloud Volumes ONTAP 的限制。如果您升級使用9.7版或更早版本所建立的系統、系統將繼續支援22個磁碟。由於從9.8版開始新增核心磁碟、因此在使用這些執行個體類型的新系統上可減少一張資料磁碟。</block>
   <block id="3d60f9d4f3945975bb1eca051c0bbef9" category="list-text">此執行個體類型的本機NVMe磁碟數量比其他執行個體類型多、這表示支援的資料磁碟數量較少。</block>
-  <block id="6ebe799c380816a48bf991ae59543433" category="cell">544 TiB</block>
   <block id="3c59dc048e8850243be8079a5c74d079" category="cell">21</block>
   <block id="a23ca456fec74dd76d95b20f2cf60dd0" category="cell">19 ^1^</block>
   <block id="156b98ab4634edb024f99442726e3e8d" category="cell">18 ^1^</block>
   <block id="b7608c5d160ea75c5c58e10097dc4db7" category="cell">288 TiB</block>
   <block id="dee0912fefbe003d7ae380d371a87fad" category="cell">16 ^2^</block>
   <block id="9f71cb3204a7c80e435b6337aed1e728" category="cell">256 TiB</block>
-  <block id="c16a5320fa475530d9583c34fd356ef5" category="cell">31</block>
   <block id="01d00547146974c6eeb34ecc38263cb0" category="list-text">18個資料磁碟是_new _部署Cloud Volumes ONTAP 的限制。如果您升級使用9.7版或更早版本所建立的系統、系統將繼續支援19個磁碟。由於從9.8版開始新增核心磁碟、因此在使用這些執行個體類型的新系統上可減少一張資料磁碟。</block>
-  <block id="35a779533962b549212e6b883b5793f7" category="cell">496 TiB</block>
   <block id="6f4922f45568161a8cdf4ad2299f6d23" category="cell">18</block>
   <block id="d165ee52657df0e131ad67ed84783dfb" category="cell">16^1^</block>
   <block id="b9d1a1e4bd5440efc61b41572ff402ed" category="paragraph">使用AWS磁碟區做為磁碟、並將其分組為_aggregate。Cloud Volumes ONTAPAggregate可為磁碟區提供儲存設備。</block>
@@ -484,9 +479,6 @@
   <block id="9825b8fbfebdae674007d54a87208654" category="cell">96 TiB原始容量^2^</block>
   <block id="fa1fa971d1018dcdfc6e158b981c33cb" category="list-text">無法在HA配對的兩個節點上建立18個Aggregate、因為這樣做會超過資料磁碟限制。</block>
   <block id="94603c2f4a34dbb9c9a2fa72acf1b544" category="paragraph"><block ref="b409a35c1f5637c3fa6cd7bc9b79706b" category="inline-link-rx"></block>。</block>
-  <block id="4037b2b5756ae2a7b370c7b6e783aa25" category="cell">執行個體系列</block>
-  <block id="db2a5609d325e7b486ff21c338843d70" category="cell">c5、m5和r5</block>
-  <block id="39361436d2ec06b159fff2a0853d8f11" category="cell">c4、m4和r4</block>
   <block id="4a17a3c856fd1f9d634bfd17f1c2f886" category="list-text">此限制可能較低、視您使用的EC2執行個體類型而定。每個執行個體的限制列於下節。</block>
   <block id="3bf6fac8bc39cb7e3c1edfe9268b14b0" category="section-title">依EC2執行個體類型限制儲存VM</block>
   <block id="a5b344442a7f99e2e79adb073bfb1038" category="paragraph">建立額外的儲存VM時、您需要將私有IP位址分配給連接埠e0a。下表列出每個介面的私有IP數量上限、Cloud Volumes ONTAP 以及部署完使用費率後、連接埠e0a上可用的IP位址數量。可用IP位址的數量、直接影響該組態的儲存VM數量上限。</block>
@@ -637,9 +629,6 @@
   <block id="803d45df8eb29c3872409cc750868adb" category="paragraph"><block ref="91157be1d04ccb789488c1869d33e63c" category="inline-link-rx"></block>。</block>
   <block id="9f0f02784feedfa2549a9e3a51cfa315" category="list-text">單一節點系統的升級可讓系統離線長達25分鐘、在此期間I/O會中斷。</block>
   <block id="00795e3f043d0bab791590ffc0257204" category="list-text">升級 HA 配對不中斷營運、而且 I/O 不中斷。在此不中斷營運的升級程序中、會同時升級每個節點、以繼續為用戶端提供 I/O 服務。</block>
-  <block id="0810d353d59682cc576139c85dde16ca" category="section-title">c4、m4和r4執行個體類型</block>
-  <block id="a1e5d1768da3a3100837f2ea13ebd32f" category="paragraph">從9.8版開始、新Cloud Volumes ONTAP 版的更新版不支援C4、M4和R4執行個體類型。如果您現有Cloud Volumes ONTAP 的某個執行於c4、m4或r4執行個體類型上的版本、您仍可升級至此版本。</block>
-  <block id="f84be4481dc8e8613c8c66fe2b277872" category="paragraph">建議變更為c5、m5或R5執行個體系列中的執行個體類型。</block>
   <block id="2be187f608e3ad4af24d83ba1557f439" category="section-title">DS3_v2</block>
   <block id="65b0a9dbf9678f2f159ed56b9d03e3c6" category="paragraph">從9.9.1版開始、DS3_v2 VM類型不再支援新的和現有Cloud Volumes ONTAP 的版本。如果此VM類型上有執行的現有系統、則在升級至9.10.1之前、必須先變更VM類型。</block>
   <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">版本資訊首頁</block>
@@ -672,7 +661,6 @@
   <block id="7ddea5d9f1e01b01ba11b40da7046d95" category="list-text">使用HA配對時、支援這些VM類型的高速寫入速度。Cloud Volumes ONTAP您可以在部署期間或之後的任何時間、從Cloud Manager啟用高速寫入速度。<block ref="18805b87db41583a67ecc2414d022f2b" category="inline-link-rx"></block>。</block>
   <block id="75b66e0b3cef735ea985bd79ab9601e2" category="cell">m5dn.4xlarge</block>
   <block id="bc503c45d950d94391e7685c6585b286" category="cell">m5dn.12xlarge</block>
-  <block id="c50e8615eb65e21639a9b12f16b31280" category="list-text">此Cloud Volumes ONTAP 版本中的全新版本不支援c4、m4和r4執行個體類型。不過、我們仍顯示這些執行個體類型的磁碟限制、因為您可以在其中一種執行個體類型上執行時、將系統升級至此版本。</block>
   <block id="30af1a6878bac3a7aaed5d0e64e7b511" category="paragraph">提供不同的授權選項、讓您選擇符合需求的消費模式。Cloud Volumes ONTAP</block>
   <block id="37439fa615a442ec183c1c602f9755f1" category="paragraph">容量型授權的形式為_package_。當您部署Cloud Volumes ONTAP 一套解決方案時、您可以根據業務需求、從多個授權套件中進行選擇。</block>
   <block id="deb56fb5a824215375b16e72749e2aa3" category="inline-link">深入瞭解這些授權選項</block>
@@ -685,4 +673,10 @@
   <block id="a1a76d69474e885d4cccb97efcc9388e" category="paragraph"><block ref="748bb4ed917d0715422ce7b9282ee6b3" category="inline-link-rx"></block> （需登入 NetApp 支援網站）。</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
   <block id="da934d10ecc6d50a861d9470630d4989" category="paragraph">如果您善用<block ref="e066b15eeebd4e6d571fd7dd588f94f7" category="inline-link-rx"></block> 在您部署Cloud Volumes ONTAP 的VPC中、您需要實作DNS記錄、將流量轉送至所需的<block ref="c291f5ab92cbab017e6f29ee8a0edb54" category="inline-link-rx"></block>。</block>
+  <block id="e7a585efb4ff7fae4274ad6c7457c7c6" category="section-title">不再支援的c4、m4和r4執行個體（2022年10月28日）</block>
+  <block id="841d1ec868d8656a6dc9f74fd65112d6" category="paragraph">在AWS中Cloud Volumes ONTAP 、不再支援C4、M4和R4 EC2執行個體類型。如果現有的系統執行於c4、m4或r4執行個體類型、則必須變更為c5、m5或R5執行個體系列中的執行個體類型。</block>
+  <block id="6614eabe1ab14f33107830de1efb584a" category="inline-link-macro">瞭解如何變更EC2執行個體類型Cloud Volumes ONTAP 以供使用</block>
+  <block id="f072eddf76dc8c19f3d32a7263fe7931" category="paragraph"><block ref="37cca4b92d12a1904a84ee04c60f6ada" category="inline-link-macro-rx"></block>。</block>
+  <block id="09ea0908fbfc4cde85bf416e35dc55c8" category="inline-link-macro">NetApp支援</block>
+  <block id="0b55c70d5652d8fe1f5ddc75633eaa95" category="paragraph">請參閱 <block ref="0bcfd67fb2b966e3378fbf640ee81a22" category="inline-link-macro-rx"></block> 以深入瞭解這些執行個體類型的終止可用度和支援。</block>
 </blocks>

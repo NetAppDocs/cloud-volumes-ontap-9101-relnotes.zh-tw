@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference-new.html 
-keywords: 'what"s new, new, features, release notes, enhancements' 
+keywords: new features, release notes, enhancements 
 summary: 包含多項新功能與增強功能的資訊。Cloud Volumes ONTAP 
 ---
 = 更新功能Cloud Volumes ONTAP

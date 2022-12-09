@@ -222,7 +222,6 @@
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">已知限制指出本產品版本不支援的平台、裝置或功能、或是無法與產品正確互通的平台、裝置或功能。請仔細檢閱這些限制。</block>
   <block id="fc5c1a5c8028c4da4d0b0de1a9b1df3d" category="doc">所有雲端供應商的限制</block>
   <block id="a20ea8590a5bc20c473682a1138198a0" category="paragraph">下列限制適用於Cloud Volumes ONTAP 所有雲端供應商的解決方案：AWS、Azure和Google Cloud。</block>
-  <block id="cbc4bd981852b46f0fbf6e6a6d4ed5af" category="section-title">不得從雲端供應商的主控台修改部署Cloud Volumes ONTAP</block>
   <block id="9baac3e3e045ecc1a8ffecb16253a5d1" category="paragraph">從雲端供應商的主控台變更Cloud Volumes ONTAP 支援的系統組態、會導致不受支援的組態設定。Cloud Manager所建立及管理的任何更新、都可能影響系統穩定性及Cloud Manager管理系統的能力。Cloud Volumes ONTAP</block>
   <block id="871cdf07a10d1cc27cb3166e7a820a66" category="section-title">磁碟和集合體必須從Cloud Manager進行管理</block>
   <block id="dbdb55d3acfbb139cd66db544b19d738" category="paragraph">所有磁碟和集合體都必須直接從 Cloud Manager 建立和刪除。您不應從其他管理工具執行這些動作。這樣做可能會影響系統穩定性、阻礙未來新增磁碟的能力、並可能產生備援雲端供應商費用。</block>
@@ -540,9 +539,6 @@
   <block id="0066e8873a17823db601b98ebbc37dd2" category="section-title">HA 限制</block>
   <block id="b1969fa9ebe4dd2003618adb77082978" category="paragraph">某些地區不支援HA配對。</block>
   <block id="d91c9372e1fdf74d651217f1a36e518b" category="inline-link">檢視支援的Azure地區清單</block>
-  <block id="1e6996b39daf779b565c50c8411fbc8d" category="paragraph"><block ref="8e36f0f32d75ebd3c7851e726c538544" category="inline-link-rx"></block>。</block>
-  <block id="e4f5b6f59db7bfa0e08c02262ddbd654" category="section-title">CSP合作夥伴無法使用「隨用隨付」</block>
-  <block id="f2ff5834d93c258f0fc4ad6cf6a17942" category="paragraph">如果您是Microsoft Cloud Solution Provider（CSP）合作夥伴、則無法部署Cloud Volumes ONTAP SfExplore、Standard或Premium、因為CSP合作夥伴無法使用隨用付費訂閱。您必須購買授權並部署Cloud Volumes ONTAP BYOL。</block>
   <block id="9141535b8d150812f3cded29f090ad8c" category="summary">Google Cloud支援多Cloud Volumes ONTAP 種支援的支援功能。</block>
   <block id="9e931b1cee40a7346d1f06dd6a75ba8e" category="doc">Google Cloud支援的組態</block>
   <block id="0c11951245f2ef7895ea0fc514386d6e" category="paragraph">在Google Cloud Platform中、可將其作為單一節點系統、並以高可用度（HA）節點配對的形式提供、以提供容錯能力和不中斷營運。Cloud Volumes ONTAP</block>
@@ -679,4 +675,10 @@
   <block id="f072eddf76dc8c19f3d32a7263fe7931" category="paragraph"><block ref="37cca4b92d12a1904a84ee04c60f6ada" category="inline-link-macro-rx"></block>。</block>
   <block id="09ea0908fbfc4cde85bf416e35dc55c8" category="inline-link-macro">NetApp支援</block>
   <block id="0b55c70d5652d8fe1f5ddc75633eaa95" category="paragraph">請參閱 <block ref="0bcfd67fb2b966e3378fbf640ee81a22" category="inline-link-macro-rx"></block> 以深入瞭解這些執行個體類型的終止可用度和支援。</block>
+  <block id="2819feead2b07762a4465189ab8b2f52" category="paragraph-title">對於HA配對、每個節點或整個HA配對的授權容量限制是多少？</block>
+  <block id="7093c2c9844cf46dcd5d50c6d596d244" category="paragraph-title">對於HA配對、鏡射資料是否會根據授權容量限制計算？</block>
+  <block id="04e02f6b2c0d8cc75f029fa0d4d1378f" category="section-title">不得從雲端供應商的主控台修改部署Cloud Volumes ONTAP</block>
+  <block id="2f9882645b2c32820ad085240bacb763" category="paragraph-title">對於HA、每個節點或整個HA配對的授權容量限制是多少？</block>
+  <block id="fc9a388cd18c69244f22554de6f0d544" category="paragraph-title">對於AWS中的HA系統、鏡射資料是否會根據容量限制計算？</block>
+  <block id="8e36f0f32d75ebd3c7851e726c538544" category="paragraph"><block ref="8e36f0f32d75ebd3c7851e726c538544" category="inline-link-rx"></block></block>
 </blocks>

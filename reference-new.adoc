@@ -16,7 +16,7 @@ summary: 包含多項新功能與增強功能的資訊。Cloud Volumes ONTAP
 [role="lead"]
 包含多項新功能與增強功能的資訊。Cloud Volumes ONTAP
 
-最新版的BlueXP也會提供其他功能和增強功能。請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["BlueXP版本說明"^] 以取得詳細資料。
+最新版的BlueXP也會提供其他功能和增強功能。請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP版本說明"^] 以取得詳細資料。
 
 
 
@@ -24,7 +24,7 @@ summary: 包含多項新功能與增強功能的資訊。Cloud Volumes ONTAP
 
 在AWS中Cloud Volumes ONTAP 、不再支援C4、M4和R4 EC2執行個體類型。如果現有的系統執行於c4、m4或r4執行個體類型、則必須變更為c5、m5或R5執行個體系列中的執行個體類型。
 
-link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-change-ec2-instance.html["瞭解如何變更EC2執行個體類型Cloud Volumes ONTAP 以供使用"^]。
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-change-ec2-instance.html["瞭解如何變更EC2執行個體類型Cloud Volumes ONTAP 以供使用"^]。
 
 請參閱 link:https://mysupport.netapp.com/info/communications/ECMLP2880231.html["NetApp支援"^] 以深入瞭解這些執行個體類型的終止可用度和支援。
 
@@ -141,7 +141,7 @@ Keystone Flex訂閱支援所有可Cloud Volumes ONTAP 從BlueXP部署的全新�
 
 發行版《支援升級》的《支援升級》、可讓您使用Azure Key Vault（AKV）或Google Cloud Key Management Service來保護各項加密金鑰。ONTAP ONTAP
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-security.html["深入瞭Cloud Volumes ONTAP 解支援for NetApp的加密技術"^]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-security.html["深入瞭Cloud Volumes ONTAP 解支援for NetApp的加密技術"^]。
 
 
 
@@ -159,7 +159,7 @@ TIP: 連接器的自動升級預設為啟用、因此您應該執行最新版本
 * 必須從BlueXP完成升級。Cloud Volumes ONTAP您不應 Cloud Volumes ONTAP 使用 System Manager 或 CLI 來升級功能。這樣做可能會影響系統穩定性。
 * 您可以從Cloud Volumes ONTAP 9.10.0版本和9.9.1版本升級至版本的版本。BlueXP會提示您將合格Cloud Volumes ONTAP 的更新版升級至9.10.1版。
 +
-http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["瞭解如何在BlueXP通知您時進行升級"^]。
+http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html["瞭解如何在BlueXP通知您時進行升級"^]。
 
 * 單一節點系統的升級可讓系統離線長達25分鐘、在此期間I/O會中斷。
 * 升級 HA 配對不中斷營運、而且 I/O 不中斷。在此不中斷營運的升級程序中、會同時升級每個節點、以繼續為用戶端提供 I/O 服務。
